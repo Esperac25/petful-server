@@ -29,7 +29,7 @@ class Queue {
         }
         const node = this.first;
         this.first = this.first.next;
-        if(this.first === last){
+        if(node === this.last){
             this.last === null;
         }
         return node.value;
