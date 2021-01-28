@@ -58,7 +58,7 @@ const showQ = (queue) => {
     let currNode = queue.first;
 
     while(currNode){
-        q.push(currNode.value)
+        q.push(currNode.value);
         currNode = currNode.next;
     }
     return q;
