@@ -21,7 +21,7 @@ const CatService = {
     },
 };
 
-const DogsService = {
+const DogService = {
     getDogs(){
         const showDogs = showQ(dogQ);
         return showDogs;
@@ -35,4 +35,4 @@ const DogsService = {
     },
 };
 
-module.exports = {CatService, DogsService};
+module.exports = {CatService, DogService};
